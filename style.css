@@ -1,0 +1,83 @@
+.top{
+    text-align: center;
+}
+
+hr{
+    width: 50%;
+    height: 4px;
+    background-color: rgb(6, 168, 238);
+    border-radius: 3px;
+}
+
+
+body{
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    background-position: top right ;
+    background-size: 30%;
+    
+}
+
+form{
+    width: 50%;
+    background-color: rgb(27, 137, 181);
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 40px;
+    text-align: center;
+
+}
+
+.login p, .password p, .choice_g, .course{
+    
+    color: rgb(205, 214, 222);
+    font-size: larger;
+    
+}
+
+.login input, .password input{
+    width: 85%;
+    border-radius: 20px;
+    padding: 10px 5px;
+    text-align: center;
+    border: none;
+    background-color: rgb(35, 163, 198);
+    outline: none;
+   
+}
+.login input::placeholder{
+    color: black;
+}
+.password input::placeholder{
+    color: black;
+}
+
+.gender p, .about p{
+    display: inline;
+    
+}
+.gender{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.gender input{
+    margin-top: 20px;
+}
+
+.checkbox{
+    margin-top: 30px;
+}
+textarea{
+    background-color: rgb(35, 163, 198);
+    width: 90%;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+@media  screen and (max-width: 600px) {
+    form{
+        width: 80%;
+        
+    }
+}
